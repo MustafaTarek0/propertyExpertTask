@@ -1,0 +1,6 @@
+﻿{
+  "loginData": [
+    { "username": "standard_user", "password": "secret_sauce", "expectedErrorMsg": "Epic sadface: Username and password do not match any user in this service","invalidUserName" : "mustafa","invalidPassword" : "123",
+      "successMsg": "Thank you for your order!","firstName": "Mustafa","lastName": "tarek","zipCode": "123456","completeText": "Your order has been dispatched, and will arrive just as fast as the pony can get there!" }
+  ]
+}

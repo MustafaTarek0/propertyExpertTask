@@ -1,0 +1,31 @@
+{
+  "BaseUrl": "https://www.saucedemo.com/",
+  "Timeouts": {
+    "PageLoad": 60000,
+    "Element": 60000
+  },
+  "Video": {
+    "Enabled": true,
+    "OnFailure": true,
+    "Path": "Data/Videos/"  
+  },
+  "Screenshots": {
+    "Enabled": true,
+    "OnFailure": true,
+    "Path": "Data/Screenshots/"
+  },
+  "Browsers": [
+    {
+      "Name": "Chromium",
+      "Headless": false
+    },
+    {
+      "Name": "Firefox",
+      "Headless": false
+    },
+    {
+      "Name": "Webkit",
+      "Headless": false
+    }
+  ]
+}
