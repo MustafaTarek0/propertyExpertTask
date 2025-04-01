@@ -1,6 +1,5 @@
 using Microsoft.Playwright;
 using NUnit.Framework;
-using PropertyExpertTask.Helpers;
 using PropertyExpertTask.screens;
 using PropertyExpertTask.Utilities;
 
@@ -74,9 +73,14 @@ namespace PropertyExpertTask.Tests
                 await Assertions.Expect(_page).ToHaveURLAsync("https://www.saucedemo.com/checkout-step-two.html");
                 checkoutScreen.ClickFinishButton();
                 await Assertions.Expect(_page).ToHaveURLAsync("https://www.saucedemo.com/checkout-complete.html");
-                
-                Assert.That(await checkoutScreen.SuccessMsg.TextContentAsync(), Is.EqualTo(data.successMsg.ToString()));
-                Assert.That(await checkoutScreen.CompleteTxt.TextContentAsync(), Is.EqualTo(data.completeText.ToString()));
+                Assert.That(await checkoutScreen.GetSuccessMsg.TextContentAsync(), Is.EqualTo(data.successMsg.ToString()));
+                Assert.That(await checkoutScreen.GetCompleteTxt.TextContentAsync(), Is.EqualTo(data.completeText.ToString()));
+                Assert.That(await checkoutScreen.GetTitle.TextContentAsync(), Is.EqualTo(data.Title.ToString()));
+                await Assertions.Expect(checkoutScreen.GetSuccessMark).ToBeVisibleAsync();
+                checkoutScreen.ClickBackToProductsButton();
+                await Assertions.Expect(_page).ToHaveURLAsync("https://www.saucedemo.com/inventory.html");
+
+
             }
         }
 

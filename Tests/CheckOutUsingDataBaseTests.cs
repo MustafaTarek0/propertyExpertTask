@@ -1,6 +1,5 @@
 ﻿using Microsoft.Playwright;
 using NUnit.Framework;
-using PropertyExpertTask.Helpers;
 using PropertyExpertTask.screens;
 using PropertyExpertTask.Utilities;
 
@@ -80,8 +79,8 @@ namespace PropertyExpertTask.Tests
                 checkoutScreen.ClickFinishButton();
                 await Assertions.Expect(_page).ToHaveURLAsync("https://www.saucedemo.com/checkout-complete.html");
                 
-                Assert.That(await checkoutScreen.SuccessMsg.TextContentAsync(), Is.EqualTo(data.successMsg.ToString()));
-                Assert.That(await checkoutScreen.CompleteTxt.TextContentAsync(), Is.EqualTo(data.completeText.ToString()));
+                Assert.That(await checkoutScreen.GetSuccessMsg.TextContentAsync(), Is.EqualTo(data.successMsg.ToString()));
+                Assert.That(await checkoutScreen.GetCompleteTxt.TextContentAsync(), Is.EqualTo(data.completeText.ToString()));
                 
                 // Now, validate the order in the database
                 var databaseHelper = new dataBaseAssertion(connectionString);
@@ -90,7 +89,7 @@ namespace PropertyExpertTask.Tests
                 (string Username, string ProductName, decimal TotalPrice, DateTime OrderDate) dbOrder =
                     await databaseHelper.GetLatestOrderFromDatabase(data.username.ToString());
                 Console.WriteLine(dbOrder);
-// Access the tuple values using the names defined in the method
+               // Access the tuple values using the names defined in the method
 
                 decimal dbTotalPrice = dbOrder.TotalPrice; 
                 DateTime dbOrderDate = dbOrder.OrderDate; 
@@ -99,11 +98,11 @@ namespace PropertyExpertTask.Tests
 
 
                 // Validate that the database values match the checkout details
-            //    Assert.That(dbUsername, Is.EqualTo(data.username.ToString()), "Username does not match!");
-              //  Assert.That(dbProductName, Is.EqualTo(itemName), "Product name does not match!");
-               // Assert.That(dbTotalPrice, Is.EqualTo(Convert.ToDecimal(data.totalPrice.ToString())), "Total price does not match!");
+                Assert.That(dbUsername, Is.EqualTo(data.username.ToString()), "Username does not match!");
+                Assert.That(dbProductName, Is.EqualTo(itemName), "Product name does not match!");
+                Assert.That(dbTotalPrice, Is.EqualTo(Convert.ToDecimal(data.totalPrice.ToString())), "Total price does not match!");
 
-               // Console.WriteLine("✅ Database validation passed!");
+                Console.WriteLine("Database validation passed");
 
             }} } }
 

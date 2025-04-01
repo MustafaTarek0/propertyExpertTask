@@ -21,7 +21,7 @@
     },
     {
       "Name": "Firefox",
-      "Headless": false
+     "Headless": false
     },
     {
       "Name": "Webkit",

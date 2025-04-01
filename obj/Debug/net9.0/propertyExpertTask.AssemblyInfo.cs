@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("propertyExpertTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a07ccb8f598229308a41619c450d35d9bacb42d")]
 [assembly: System.Reflection.AssemblyProductAttribute("propertyExpertTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("propertyExpertTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

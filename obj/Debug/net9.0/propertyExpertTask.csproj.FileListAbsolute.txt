@@ -563,6 +563,7 @@ C:\Users\nutzer\Desktop\propertyExpert\propertyExpertTask\obj\Debug\net9.0\prope
 C:\Users\nutzer\Desktop\propertyExpert\propertyExpertTask\obj\Debug\net9.0\propertyExpertTask.AssemblyInfoInputs.cache
 C:\Users\nutzer\Desktop\propertyExpert\propertyExpertTask\obj\Debug\net9.0\propertyExpertTask.AssemblyInfo.cs
 C:\Users\nutzer\Desktop\propertyExpert\propertyExpertTask\obj\Debug\net9.0\propertyExpertTask.csproj.CoreCompileInputs.cache
+C:\Users\nutzer\Desktop\propertyExpert\propertyExpertTask\obj\Debug\net9.0\propertyExpertTask.sourcelink.json
 C:\Users\nutzer\Desktop\propertyExpert\propertyExpertTask\obj\Debug\net9.0\property.00D2438A.Up2Date
 C:\Users\nutzer\Desktop\propertyExpert\propertyExpertTask\obj\Debug\net9.0\propertyExpertTask.dll
 C:\Users\nutzer\Desktop\propertyExpert\propertyExpertTask\obj\Debug\net9.0\refint\propertyExpertTask.dll

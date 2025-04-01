@@ -27,15 +27,18 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\Users\nutzer\.nuget\packages\nunit\4.3.2\lib\net8.0\nunit.framework.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
-	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e534c19d_002D8164_002D4898_002D8891_002D902b83db8cc7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CheckoutTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=054d0a31_002Dfda8_002D4a94_002Db8e3_002Db04f229e91be/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ClickRandomItemAddToCartButton" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::4587BBA2-309E-E212-69FC-34AA83E6A266::net9.0::PropertyExpertTask.Tests.CheckoutTests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::4587BBA2-309E-E212-69FC-34AA83E6A266::net9.0::PropertyExpertTask.Tests.LoginTests("Chromium").Login_WithValidCredentials_ShouldRedirectToInventoryPage&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::4587BBA2-309E-E212-69FC-34AA83E6A266::net9.0::PropertyExpertTask.Tests.LoginTests("Firefox").Login_WithValidCredentials_ShouldRedirectToInventoryPage&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::4587BBA2-309E-E212-69FC-34AA83E6A266::net9.0::PropertyExpertTask.Tests.LoginTests("Webkit").Login_WithValidCredentials_ShouldRedirectToInventoryPage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4587BBA2-309E-E212-69FC-34AA83E6A266::net9.0::PropertyExpertTask.Tests.CheckoutTests("Chromium").ClickRandomItemAddToCartButton&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4587BBA2-309E-E212-69FC-34AA83E6A266::net9.0::PropertyExpertTask.Tests.CheckoutTests("Firefox").ClickRandomItemAddToCartButton&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4587BBA2-309E-E212-69FC-34AA83E6A266::net9.0::PropertyExpertTask.Tests.CheckoutTests("Webkit").ClickRandomItemAddToCartButton&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4587BBA2-309E-E212-69FC-34AA83E6A266::net9.0::PropertyExpertTask.Tests.CheckOutUsingDataBaseTests("Chromium").CheckOutFlowUsingDataBase&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4587BBA2-309E-E212-69FC-34AA83E6A266::net9.0::PropertyExpertTask.Tests.CheckOutUsingDataBaseTests("Firefox").CheckOutFlowUsingDataBase&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4587BBA2-309E-E212-69FC-34AA83E6A266::net9.0::PropertyExpertTask.Tests.CheckOutUsingDataBaseTests("Webkit").CheckOutFlowUsingDataBase&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	
+	
 	
 	
 	
